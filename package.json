@@ -1,0 +1,23 @@
+{
+  "name": "react-escape-html",
+  "version": "1.0.0",
+  "description": "ES6 tagged template string escaping HTML and producing a 'tainted string object' directly usable with React 'dangerouslySetInnerHTML' property",
+  "author": "Manuel Vila <mvila@3base.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mvila/react-escape-html"
+  },
+  "scripts": {
+    "release": "(git checkout --quiet master && test -z \"$(git status --porcelain)\" && npm version $npm_config_release_type && git push --follow-tags && npm publish) || echo \"An error occurred (uncommitted changes?)\"",
+    "release-patch": "npm run release --release-type=patch",
+    "release-minor": "npm run release --release-type=minor",
+    "release-major": "npm run release --release-type=major",
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "dependencies": {
+    "eskape": "^1.2.0"
+  },
+  "devDependencies": {}
+}
