@@ -2,6 +2,15 @@
   "name": "react-escape-html",
   "version": "1.0.1",
   "description": "ES6 tagged template string escaping HTML and producing a 'tainted string object' directly usable with React 'dangerouslySetInnerHTML' property",
+  "keywords": [
+    "es6",
+    "template",
+    "string",
+    "html",
+    "escape",
+    "react",
+    "safe"
+  ],
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "main": "index.js",
