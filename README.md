@@ -16,7 +16,7 @@ npm install --save react-escape-html
 var html = require('react-escape-html');
 
 var tag = '<script>';
-var safeHTMLString = html`This is a <b>dangerous</b> HTLM tag: ${tag}!`;
+var safeHTMLString = html`This is a <b>dangerous</b> HTML tag: ${tag}!`;
 var safeReactElement = <div dangerouslySetInnerHTML={safeHTMLString} />;
 ```
 
