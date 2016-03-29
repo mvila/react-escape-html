@@ -1,6 +1,6 @@
 {
   "name": "react-escape-html",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ES6 tagged template string escaping HTML and producing a 'tainted string object' directly usable with React 'dangerouslySetInnerHTML' property",
   "keywords": [
     "es6",
